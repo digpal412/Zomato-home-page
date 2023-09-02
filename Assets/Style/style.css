@@ -1,0 +1,380 @@
+body{
+    margin:0px ;
+}
+.header{
+    margin:19px 0px ;
+    justify-content: center;
+    width: 100%px;
+    height: 24px;
+    display: flex;
+
+}
+
+.icon{
+    margin: 25px 10px;
+    display: flex;
+}
+
+.navbar{
+    border: none;
+    box-shadow: 1px 1px 2px 1px, 1px 1px 1px 1px #b6adad;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    height: 54px;
+    width: 704px;
+    align-content: center;
+}
+
+.log-in a{
+    position: relative;
+    left: 50px;
+    top: 18px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    padding: 8px;
+    margin-left: 20px;
+    color: #716464;
+    
+}
+.log-in{
+    height: 40px;
+}
+
+.logo{
+    background-color: #ffffff;
+    align-self: center;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+.path {
+    display: flex;
+    gap: 5px;
+    padding:  35px 230px;
+    color: #716464;
+}
+
+.path a{
+    text-decoration: none;
+    color: #716464;
+
+}
+
+.path :hover{
+    color: red;
+}
+
+
+.fix-head{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+    background-color: #ffffff;
+    display: flex;
+    border: 0px solid ;
+    border-radius: 5px;
+    
+   
+}
+.fix-head > div {
+    background-color: #ffffff;
+    align-content: center;
+    margin-right: 20px;
+    width: 110px;
+    height: 35px ;
+    text-align: center;
+    line-height: 35px;
+    font-size: 15px;
+    font-family: Okra, Helvetica, sans-serif;
+    border: 1px solid #b0a3a3;
+    border-radius: 10px;
+    color: #b0a3a3;
+    cursor: pointer;
+}
+
+select{
+    width: 15px;
+    border: none;
+    border-radius: 5px;
+}
+input{
+    border: none;
+    border-radius: 5px;
+}
+
+.slide-section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background-color: #F8F8F8;
+    height: 336px;
+    font-size: 34px;
+    font-family: Okra, Helvetica, sans-serif;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+#round-p{
+    position: sticky;
+    left: 220px;
+}
+.slide-section .images-top {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    cursor: pointer;
+    
+    
+}
+
+.slide-section .images-top p{
+    position: relative;
+    font-size: x-large;
+    font-family: Okra, Helvetica, sans-serif;
+    top: 160px;
+    left: -120px;
+
+    color: #595151;
+    
+}
+
+.restaurants{
+    display: block;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    width: 75%;
+
+}
+.restaurants .r-images img{
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.restaurants .r-images {
+    margin: 20px 5px;
+    cursor: pointer;
+}
+
+
+.restaurants .restaurants-p{
+    font-size: 30px;
+}
+.restaurants .r-images .r-name{
+    
+    padding: 0px 10px;
+    align-items: center;
+    font-size: large; 
+}
+
+.restaurants .r-images .r-type p{
+    margin-top: 0;
+    line-height: 1;
+}
+.restaurants .r-images .r-time p{
+    margin-top: 0;
+    line-height: 1;
+}
+.restaurants .r-images .r-time {
+    display: flex;
+    padding-left: 280px;
+}
+
+
+.restaurants .r-images .r-name button{
+    height: 25px;
+    background-color: #267E3E;
+    color: #E8F1EB;
+    border-radius: 7px;
+}
+
+.restaurants .r-images .r-type{
+    padding: 0px 10px;
+    color: #858484;
+}
+.r-images:hover{
+    border: none;
+    box-shadow: 1px 1px 2px 1px, 1px 1px 1px 1px ;
+    border-color: gray;
+    border-radius: 20px;
+
+}
+.flex-section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+.restaurants .flex-section .r-blocks{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.restaurants .flex-section .r-blocks .r-name{
+    text-align: left;
+    padding-right: 125px;
+}
+.restaurants .flex-section .r-blocks .r-type{
+    text-align: right;
+    padding-top: 20px;
+}
+.restaurants .flex-section .r-blocks .r-type button{
+    height: 25px;
+    background-color: #267E3E;
+    color: #E8F1EB;
+    border-radius: 7px;
+}
+.restaurants .flex-section .r-blocks .r-type p{
+    padding-top: 10px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.end-of-result{
+    padding: 75px 50px 150px 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 150px;
+}
+
+.explore{
+    background-color: #FCFCFC;
+    height: 400px;
+    
+}
+
+.explore .heading{
+    padding: 20px 0px 20px 230px;
+    align-items: center;
+}
+
+.nearme{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    font-size: 20px;
+    color: grey;
+    width: 70%;
+    margin: auto;
+    background-color: #ffffff;
+    padding-left: 50px;
+    border: 0.5px solid lightgray;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+.nearme i{
+    padding-top: 28px;
+    padding-left: 800px;
+}
+
+#rnearme{
+    padding-left: 740px;
+
+}
+
+#deliver{
+    padding-left: 835px;
+
+}
+
+.footer{
+    background-color:#F8F8F8 ;
+}
+
+.footer .contry{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 0px 10px 30px;
+    width: 110px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.footer .logo{
+    background-color: #F8F8F8;
+    display: flex;
+    margin: auto;
+    padding: 20px 0px 20px 230px;
+    align-items: center;
+
+}
+.footer .logo .img{
+    padding-right: 650px;
+}
+
+.footer .language{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 0px 10px 30px;
+    width: 110px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.footer .list{
+
+    width: 70%;
+    margin: auto;
+    align-items: left;
+    padding-left:20px ;
+    display: flex;
+    gap: 100px;
+    color: #383838;
+}
+
+.footer .list p{
+    color: #858484;
+}
+
+.footer .list .list1{
+    line-height: 0.6;
+}
+
+.footer .list .list2{
+    line-height: 0.6;
+}
+
+#list{
+    padding-top: 20px;
+}
+
+.footer .list .source p{
+    color:#383838;
+    font-size: larger;
+}
+
+.footer .list .source{
+    width: 150px;
+}
+
+.footer .list .source img{
+    padding-bottom: 10px;
+}
+
+.footer hr{
+    width: 75%;
+    color: red;
+}
+
+.footer .policy{
+    width: 70%;
+    margin: auto;
+    color: #858484;
+}
+
+
+
